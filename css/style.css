@@ -1,3 +1,21 @@
+@import "todo-list.css";
+@import "todo-form.css";
+@import "footer.css";
+@import "login-form.css";
+
 .hidden {
     display: none;
 }
+
+#clock,
+form,
+#greeting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    font-size: 60px;
+}
+

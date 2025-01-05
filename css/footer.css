@@ -1,0 +1,7 @@
+#quote,
+#weather {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+}
