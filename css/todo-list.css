@@ -1,14 +1,33 @@
 #todo-list {
     padding: 0px 40px;
-    width: 200px;
-    height: 25px;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 li {
     display: block;
+    margin: 10px 0;
+}
+
+#todo-list li span {
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+#todo-list li button {
+    font-size: 20px;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    color: red;
+}
+
+#todo-list li button:hover {
+    background-color: red;
+    color: white;
 }
